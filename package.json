@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,8 @@
   "bugs": {
     "url": "https://github.com/jlyb123/benr2423/issues"
   },
-  "homepage": "https://github.com/jlyb123/benr2423#readme"
-
+  "homepage": "https://github.com/jlyb123/benr2423#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
