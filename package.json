@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "start": "node index.js",
-  "test": "echo \"Tests skipped\" && exit 0" 
-
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Tests skipped\" && exit 0"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jlyb123/benr2423.git"
