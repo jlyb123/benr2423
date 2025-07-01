@@ -1,14 +1,11 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 3000;
-
-app.use(express.json())
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000; // Azure injects PORT
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
+    res.send('Hello World - Fixed!'); // Explicit response
+});
 
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
-
+app.listen(PORT, () => {
+    console.log(`Server running on ${PORT}`); // Verify in Azure logs
+});
